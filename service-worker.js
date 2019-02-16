@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/quanghoale.github.io/precache-manifest.96c6e3af97e3b56026b011ca903c9359.js"
+  "/quanghoale/quanghoale.github.io/precache-manifest.e8c2330ca39e3d801202552feed3ea07.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/quanghoale.github.io/index.html", {
+workbox.routing.registerNavigationRoute("/quanghoale/quanghoale.github.io/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
